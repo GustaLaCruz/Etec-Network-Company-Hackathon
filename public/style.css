@@ -31,9 +31,12 @@ text-align: center;
 }
 
 .container-cantina {
-color: #fff;
-display: flex;
-align-items: center;
+    color: #fff;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
 
 }
 
@@ -41,5 +44,6 @@ align-items: center;
     border-radius: 50px;
     padding: 40px;
     width: 30vw;
+    height: 45vh;
     justify-content: space-between;
 }
