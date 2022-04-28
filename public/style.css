@@ -127,11 +127,6 @@ text-align: center;
     width: 33vw;
 }
 
-<<<<<<< HEAD
-.texto {
-    color: white;
-    
-=======
 .container-museu .texto-museu{
     justify-content: center;
     transition: 0.5s;
@@ -160,5 +155,6 @@ text-align: center;
     clip-path: circle(40% at right 50%);
     position: fixed;
     z-index: -1;
->>>>>>> 093e0e26f78f05467ebf17551f1fb849e3882c21
 }
+
+/* ata*/
