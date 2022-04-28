@@ -48,16 +48,17 @@ text-align: center;
 
 .container-cantina {
     color: #fff;
-    padding: 0 250px;
+    padding: 0 200px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 
 }
 
 .container-cantina img{
-    border-radius: 50px;
+    border-radius: 60px;
     padding: 40px;
     width: 30vw;
     height: 45vh;
@@ -67,5 +68,18 @@ text-align: center;
 .container-cantina .texto h3 {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+}
 
+.container-cantina .texto h3:hover{
+    color: #808080 ;
+}
+
+.container-cantina .texto {
+    border-right: 35px;
+}
+
+.container-cantina img:hover{
+    width: 33vw;
+    height: 47vh;
 }
