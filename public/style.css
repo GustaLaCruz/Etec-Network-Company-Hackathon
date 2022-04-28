@@ -6,7 +6,7 @@ body{
 background: linear-gradient(90deg, rgba(2,43,129,1) 0%, rgba(68,47,132,1) 51%, rgba(111,59,139,1) 100%);
 }
 
-.container{
+.contain{
     color: #fff;
     display: flex;
     align-items: center;
@@ -19,16 +19,16 @@ background: linear-gradient(90deg, rgba(2,43,129,1) 0%, rgba(68,47,132,1) 51%, r
     width: 30vw;
 }
 
-.container .texto h3 {
+.contain .texto h3 {
     display: flex;
     justify-content: center;
 
 }
+
 .container-cantina {
 color: #fff;
 display: flex;
 align-items: center;
-justify-content: space-between;
 }
 
 .container-cantina img{
