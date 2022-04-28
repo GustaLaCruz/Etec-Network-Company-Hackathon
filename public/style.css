@@ -161,8 +161,6 @@ text-align: justify;
     position: fixed;
     z-index: -1;
 }
-<<<<<<< HEAD
-=======
 
 /*----------Quem somos-----------*/ 
 
@@ -218,7 +216,6 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     position: fixed;
     z-index: -1;
 }
->>>>>>> e9a6753be20b394853ddb07f12c6d9485679ff8e
 .circuloc2{
         position: absolute;
         height: 100%;
@@ -242,23 +239,3 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
         position: fixed;
         z-index: -3;
     }
-<<<<<<< HEAD
-
-/* ---------Cursos-------------*/
-
-.circulo3{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgb(184,0,255);
-background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
-    clip-path: circle(30% at left 80%);
-    position: fixed;
-    z-index: -1;
-}
-
-
-=======
->>>>>>> e9a6753be20b394853ddb07f12c6d9485679ff8e
