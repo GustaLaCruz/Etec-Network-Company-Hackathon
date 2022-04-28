@@ -263,18 +263,17 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 .contain-cursos{
     position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content:space-around ;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    max-width: 1000px;
-    flex-wrap: wrap;
+    max-width: 1200px;
     z-index: 4;
 }
 
 .contain-cursos .card-cursus{
     position: relative;
     width: 580px;
-    height: 600px;
+    height: 650px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -317,7 +316,7 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     z-index: 1;
 }
 .contain-cursos .card-cursus .conteudo p{
-    font-size: 1em;
+    font-size: 18px;
     color: #fff;
     font-weight: 300;
 
