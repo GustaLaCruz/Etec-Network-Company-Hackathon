@@ -18,6 +18,11 @@ background: linear-gradient(90deg, rgba(2,43,129,1) 0%, rgba(68,47,132,1) 51%, r
 text-align: center;
 }
 
+.imgvestibolinho{
+    border-radius: 50px;
+    width: 400px;
+    height: 500px;
+}
 .contain img{
     border-radius: 50px;
     width: 30vw;
