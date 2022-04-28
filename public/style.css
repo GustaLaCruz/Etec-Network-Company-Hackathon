@@ -286,6 +286,19 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     z-index: -3;
 }
 
+.circulo6{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+    background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(15% at center 110%);
+    position: fixed;
+    z-index: -4;
+}
+
 .contain-cursos{
     padding: 70px;
     position: relative;
@@ -330,6 +343,7 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 
 .contain-cursos .card-cursus .conteudo h3
 {
+    padding: 10px;
     font-size: 1.8em;
     color: #fff;
     z-index: 1;
