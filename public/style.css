@@ -6,6 +6,10 @@ body{
 background: linear-gradient(90deg, rgba(2,43,129,1) 0%, rgba(68,47,132,1) 51%, rgba(111,59,139,1) 100%);
 }
 
+.relatos:hover{
+    font-size: 20px;
+}
+
 .contain{
     color: #fff;
     padding: 0 200px;
@@ -157,6 +161,64 @@ text-align: justify;
     position: fixed;
     z-index: -1;
 }
+<<<<<<< HEAD
+=======
+
+/*----------Quem somos-----------*/ 
+
+.containi{
+    color: #fff;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containi .texto h1{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.containi p{
+    text-align: justify;
+    }
+    
+    .containi img{
+        margin-top: 30px;
+        border-radius: 50px;
+        padding: 40px;
+        width: 30vw;
+        transition: 0.5s;
+    }
+    
+    .containi img:hover{
+        width: 33vw;
+    }
+    .containi .texto {
+        justify-content: center;
+        transition: 0.5s;
+    }
+      
+    .containi .texto:hover{
+         font-size: 18px;
+    }
+    
+/* ---------Cursos-------------*/
+
+.circulo3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(30% at left 80%);
+    position: fixed;
+    z-index: -1;
+}
+>>>>>>> e9a6753be20b394853ddb07f12c6d9485679ff8e
 .circuloc2{
         position: absolute;
         height: 100%;
@@ -180,6 +242,7 @@ text-align: justify;
         position: fixed;
         z-index: -3;
     }
+<<<<<<< HEAD
 
 /* ---------Cursos-------------*/
 
@@ -197,3 +260,5 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 }
 
 
+=======
+>>>>>>> e9a6753be20b394853ddb07f12c6d9485679ff8e
