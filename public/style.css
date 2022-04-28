@@ -260,13 +260,39 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     z-index: -1;
 }
 
+.circulo4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+    background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(20% at right 80%);
+    position: fixed;
+    z-index: -2;
+}
+
+.circulo5{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+    background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(10% at center 20%);
+    position: fixed;
+    z-index: -3;
+}
+
 .contain-cursos{
+    padding: 70px;
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    max-width: 1200px;
     z-index: 4;
 }
 
@@ -289,7 +315,7 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 }
 
 .contain-cursos .card-cursus .conteudo{
- padding: 20px;
+ padding: 50px;
  text-align: justify;
  transition: 0.5s;
 }
@@ -300,13 +326,6 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     right: 30px;
     font-size: 8em;
     color: rgba(255, 255, 255, 0.05);
-}
-.contain-cursos .card-cursus .conteudo img{
-    opacity: 80%;
-    padding: 10px;
-    width: 40%;
-    height: 50%;
-    border-radius: 20%;
 }
 
 .contain-cursos .card-cursus .conteudo h3
