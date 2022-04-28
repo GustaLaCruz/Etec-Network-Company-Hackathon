@@ -6,6 +6,10 @@ body{
 background: linear-gradient(90deg, rgba(2,43,129,1) 0%, rgba(68,47,132,1) 51%, rgba(111,59,139,1) 100%);
 }
 
+.relatos:hover{
+    font-size: 20px;
+}
+
 .contain{
     color: #fff;
     padding: 0 200px;
