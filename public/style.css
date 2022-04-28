@@ -272,8 +272,8 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 
 .contain-cursos .card-cursus{
     position: relative;
-    width: 280px;
-    height: 400px;
+    width: 380px;
+    height: 500px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -293,3 +293,11 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
  text-align: justify;
  transition: 0.5s;
 }
+
+.contain-cursos .card-cursus .conteudo h2{
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8em;
+}
+
