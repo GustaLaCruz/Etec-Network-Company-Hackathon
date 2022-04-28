@@ -16,6 +16,7 @@ background: linear-gradient(90deg, rgba(2,43,129,1) 0%, rgba(68,47,132,1) 51%, r
 
 .contain texto{
 text-align: center;
+font-size: 50x;
 }
 
 .imgvestibolinho{
@@ -119,7 +120,7 @@ text-align: center;
 
 .container-museu img{
     border-radius: 50px;
-    padding: 40px;
+    padding: 20px;
     width: 30vw;
     transition: 0.5s;
 }
@@ -127,3 +128,14 @@ text-align: center;
 .container-museu img:hover{
     width: 33vw;
 }
+
+.container-museu texto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
+
+  .container-museu .texto h3 {
+     display: flex;
+    justify-content: center;
+  }
