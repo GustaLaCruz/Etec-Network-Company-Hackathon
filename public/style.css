@@ -130,7 +130,6 @@ text-align: center;
 .container-museu .texto-museu{
     justify-content: center;
     transition: 0.5s;
-}
     }
 
   .container-museu .texto-museu h3 {
@@ -143,9 +142,17 @@ text-align: center;
 }
 
 .container-museu .texto-museu:hover{
-    font-size: 18px;
+    font-size: 20px;
 }
 
-p {
-    text-align: justify;
+.circulo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(111,59,139,1) 0%, rgba(57,47,132,1) 51%, rgba(96,86,232,1) 100%);
+    clip-path: circle(40% at right 50%);
+    position: fixed;
+    z-index: -1;
 }
