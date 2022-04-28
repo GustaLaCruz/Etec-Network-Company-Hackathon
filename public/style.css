@@ -349,7 +349,7 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     z-index: 1;
 }
 .contain-cursos .card-cursus .conteudo p{
-    font-size: 18px;
+    font-size: 120%;
     color: #fff;
     font-weight: 300;
 
