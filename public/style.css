@@ -161,6 +161,46 @@ text-align: center;
     z-index: -1;
 }
 
+/*----------Quem somos-----------*/ 
+
+.containi{
+    color: #fff;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containi .texto h1{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.containi p{
+    text-align: justify;
+    }
+    
+    .containi img{
+        margin-top: 30px;
+        border-radius: 50px;
+        padding: 40px;
+        width: 30vw;
+        transition: 0.5s;
+    }
+    
+    .containi img:hover{
+        width: 33vw;
+    }
+    .containi .texto {
+        justify-content: center;
+        transition: 0.5s;
+    }
+      
+    .containi .texto:hover{
+         font-size: 18px;
+    }
+    
 /* ---------Cursos-------------*/
 
 .circulo3{
