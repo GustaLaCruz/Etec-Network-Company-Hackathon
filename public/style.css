@@ -127,3 +127,8 @@ text-align: center;
 .container-museu img:hover{
     width: 33vw;
 }
+
+.texto {
+    color: white;
+    
+}
