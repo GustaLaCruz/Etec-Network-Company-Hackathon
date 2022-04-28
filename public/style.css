@@ -279,6 +279,13 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
 
+}
+
+.contain-cursos .card-cursus .conteudo{
+ padding: 20px;
+ text-align: justify;
+ transition: 0.5s;
 }
 
