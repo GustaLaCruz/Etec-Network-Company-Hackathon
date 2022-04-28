@@ -263,9 +263,10 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 .contain-cursos{
     position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:space-around ;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     flex-wrap: wrap;
     z-index: 4;
 }
@@ -302,8 +303,11 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     color: rgba(255, 255, 255, 0.05);
 }
 .contain-cursos .card-cursus .conteudo img{
-    width: 50%;
-    border-radius: 50%;
+    opacity: 80%;
+    padding: 10px;
+    width: 40%;
+    height: 50%;
+    border-radius: 20%;
 }
 
 .contain-cursos .card-cursus .conteudo h3
