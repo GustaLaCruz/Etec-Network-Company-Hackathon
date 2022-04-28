@@ -166,8 +166,31 @@ text-align: center;
     top: 0;
     left: 0;
     background: rgb(184,0,255);
-    background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
     clip-path: circle(30% at left 80%);
     position: fixed;
     z-index: -1;
 }
+.circuloc2{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(184,0,255);
+        background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+        clip-path: circle(30% at left 80%);
+        position: fixed;
+        z-index: -1;
+    }
+    .circuloc3{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(90deg, rgb(106, 35, 145) 0%, rgba(57,47,132,1) 51%, rgb(34, 48, 236) 60%);
+        clip-path: circle(30% at left 10%);
+        position: fixed;
+        z-index: -3;
+    }
