@@ -291,7 +291,6 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 .contain-cursos .card-cursus .conteudo{
  padding: 20px;
  text-align: justify;
- transform: translateY(100px);
  transition: 0.5s;
 }
 
@@ -301,6 +300,10 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     right: 30px;
     font-size: 8em;
     color: rgba(255, 255, 255, 0.05);
+}
+.contain-cursos .card-cursus .conteudo img{
+    width: 50%;
+    border-radius: 50%;
 }
 
 .contain-cursos .card-cursus .conteudo h3
