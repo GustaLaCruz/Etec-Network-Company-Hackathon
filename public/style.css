@@ -224,41 +224,71 @@ text-align: justify;
 /*----------Quem somos-----------*/ 
 
 .containi{
-    color: #fff;
-    padding: 0 200px;
+    padding: 70px;
+    position: relative;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+    z-index: 4;
 }
-
-.containi .texto h1{
-    padding: 40px;
+.containi .card-containi{
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
 }
 
-.containi p{
+.containi .card-containi h1{
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+}
+.containi .card-containi h2{
+padding: 10px 100px;
+font-size: 1.8em;
+color: #fff;
+z-index: 1;
+}
+
+.containi .card-containi p{
     text-align: justify;
+        font-size: 120%;
+        color: #fff;
+        font-weight: 300;
+    
+    }
     }
     
     .containi img{
         margin-top: 30px;
         border-radius: 50px;
-        padding: 40px;
         width: 30vw;
         transition: 0.5s;
     }
     
-    .containi img:hover{
-        width: 33vw;
-    }
     .containi .texto {
         justify-content: center;
         transition: 0.5s;
     }
       
-    .containi .texto:hover{
-         font-size: 18px;
+    .containi .card-containi:hover{
+        font-size: 110%;
+        transition: 0.5s;
+       width: 1210px;
+       height: 810px;
     }
     
 /* ---------Cursos-------------*/
