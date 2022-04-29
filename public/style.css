@@ -116,6 +116,60 @@ text-align: justify;
     height: 47vh;
 }
 
+/*---------Home----------*/
+
+.home{
+    color: #fff;
+    padding: 0 200px;
+    align-items: center;
+    display: block;
+}
+
+.home p{
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.home .texto{
+    font-size: 22px;
+    display: flex;
+}
+
+.home .texto1{
+    height: 300px;
+    width: 300px;
+    background-color: #808080;
+}
+
+.home .texto-2{
+    font-size: 22px;
+}
+
+.home .texto h1{
+    font-size: 60px;
+    padding: 40px;
+}
+
+.home li{
+    padding: 10px;
+}
+
+
+.home img{
+    width: 30vw;
+    border-radius: 20px;
+    float: right;
+    display: flex;
+    transition: 0.5s;
+}
+
+.home img:hover{
+    width: 31vw;
+}
+
+.home .texto span{
+    color: rgb(212, 255, 212);
+}
 
 /*-----------Museu-------------*/
 
@@ -325,6 +379,13 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
 
+}
+
+.contain-cursos .card-cursus:hover{
+    font-size: 110%;
+    transition: 0.5s;
+   width: 650px;
+   height: 730px;
 }
 
 .contain-cursos .card-cursus .conteudo{
