@@ -327,6 +327,13 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 
 }
 
+.contain-cursos .card-cursus:hover{
+    font-size: 110%;
+    transition: 0.5s;
+   width: 650px;
+   height: 730px;
+}
+
 .contain-cursos .card-cursus .conteudo{
  padding: 50px;
  text-align: justify;
