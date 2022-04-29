@@ -6,4 +6,7 @@
     background-color: black;
     opacity: 70%;
     backdrop-filter: blur(5px);
+    padding: 50px;
+    color: white;
+    font-size: 20px;
 }
