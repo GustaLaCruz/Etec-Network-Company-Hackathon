@@ -12,10 +12,23 @@
     <link rel="stylesheet" href="public/style.css">
     <link rel="stylesheet" href="public\rodape.css">
   </head>
-
-
-<body>
-    
+<body">
+<style>.botaoh :hover{color: black;} 
+.textotutorial{color: #000; margin-left: 50%;} 
+.bolota{position: absolute;height: 100%;width: 100%;top: 0;left: 0;background: rgb(184,0,255);
+  background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+  clip-path: circle(30% at left 80%);
+  position: fixed;
+  z-index: -1;}
+.logaritimo{
+  position: absolute;
+  margin-top: -650px;
+  margin-left: 1500px;
+  width: 50px;
+  height: 50px;
+}
+</style>
+<div class="">
     <!---Header--->
     <div class="col">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -59,73 +72,60 @@
         </nav>
     </div>
 <!---Fim do Header--->
-
-
-<div class="circulo"></div>
-
-<!---Baixada--->
-
-<div class="contain">
-   <div class="imagem">
-       <img src="public/nerd.jpg">
-   </div>
-
-   <div class="texto">
-    <h3 id="titulo">Baixada Nerd em Peruíbe</h3><br>
-    <p> Nesse dia 30 de abril a Baixada Nerd irá realizar uma palestra na Etec de Peruíbe. </p>
-    <h5>Iremos contar com a presença de:</h5>
-    <br>
-    <p><strong>Léo Andrade</strong>, especialista em low-code e no-code.</p>
-    <p><strong>Karina Martins</strong>, Publicitária, professora universitária, consultora de projetos da inovação, empreendedora, organizadora de iniciativas para startups masterchef  e blogueira de turismo.</p>
-    <p><strong>Claudenir Andrede</strong>, MVP e regional director microsoft. Diretor de tecnologia do grupo ELGIN/BEMATECH.</p>
-  </div>
-   </div>
-</div>
-<!---Fim baixada--->
-
-<div id="linha-horizontal"></div>
-
-<!--Cantinaaa-->
-<div class="container-cantina">
- 
-<div class="imagem-cantina">
-   <img src="public/cantina.jpg" alt="">
- </div>
-
- <div class="texto">
-    <h3 id="titulo">Cantina aberta na Etec Peruíbe </h3><br>
-    <p>A cantina que foi fechada no inicio das aulas de 2022, foi aberta</p>
-    <p>no dia 25 de abril, e está sobre a responsabilidade de</p>
-    <p><strong>Mayara Barbosa de Oliveira</strong> e <strong>Andreia Mathias Vieira</strong> </p>   
-    <p>(também conhecidas com "As tias do portão").</p>  
-
-  </div>
- </div>
-</div>
-<!--Fim Cantinaaa-->
-
-<div id="linha-horizontal"></div>
-
-<!--Museu-->
-
-
-<div class="container-museu">
-    <div class="imagem">
-        <img src="public/museu.png">
+<div class="card relatos" style="width: 30rem;margin-top: 100px;margin-left: 100px; transition: 0.5;">
+    <div class="card-body">
+      <h5 class="card-title relatos">Formada em Desenvolvimento de Sistema:</h5>
+      <h6 class="card-subtitle mb-2 text-muted relatos">Letícia Silverio</h6>
+      <p class="card-text">Meu nome é Letícia e eu fiz Análise e Desenvolvimento de Sistemas na Etec de Peruíbe.<br>
+        Bom, a Etec e o curso foram fundamentais para mim em muitos pontos, sendo como<br>
+        formação acadêmica, sendo como uma cidadã. Graças a ela eu consegui arrumar<br> 
+        estágio e me formar na área.
+        </p>
     </div>
- 
-    <div class="texto-museu">
-     <h3 id="titulo-museu">Em breve excursão</h3><br>
+  </div>
 
-     <p>Em breve ocorrerá uma excursão dos alunos para o <strong>Museu da Arte Moderna (MAM)</strong></p>
-     <p>do estado de São Paulo, e também irão visitar a <strong>Pinacoteca de São Paulo.</strong></p> 
-     <p>A excursão ainda não tem uma data estabelecida, mas informações em breve.</p>
-
-   </div>
+  <div class="card relatos" style="width: 30rem;margin-top: 100px;margin-left: 400px;">
+    <div class="card-body relatos">
+      <h5 class="card-title relatos">Formado em Jogos Digitais:</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Felipe Mata</h6>
+      <p class="card-text relatos">Uma pessoa que se formou na Etec, sempre será mais valorizado no mercado! Hoje eu<br>
+          trabalho em um escritório de contabilidade, terminei o Técnico em Programação de <br>
+          Jogos Digitais e curso hoje Técnico em Administração. Estou me dando bem no <br>
+          mercado de trabalho graças a Etec, que fez surgir muitas oportunidades. <br>
+        </p>
     </div>
- </div>
+  </div>
+</div>
 
- <!--Fim do Museu-->
+<div class="card relatos" style="width: 30rem;margin-top:-700px;margin-left: 700px; position: absolute;">
+    <div class="card-body relatos">
+      <h5 class="card-title relatos">Formada em Administração:</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Vitória Colaço</h6>
+      <p class="card-text relatos">Ter no currículo que se formou na Etec com o ensino médio integrado com o curso<br>
+           técnico me ajudou muito no mercado de trabalho, pois foi mais fácil de eu me destacar no meio de tantas pessoas.<br>
+           A Etec traz muitas oportunidades e após sair do ensino médio fica mais fácil de seguir em uma área.<br>  
+        </p>
+    </div>
+  </div>
+</div>
+
+<div class="card relatos" style="width: 30rem;margin-top:-300px;margin-left: 1000px; position: absolute;">
+  <div class="card-body relatos">
+    <h5 class="card-title relatos">Formado em Administração:</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Natan Lenartevitz Gomes</h6>
+    <p class="card-text relatos">Cursar o ensino médio integrado ao curso técnico do Centro Paula Souza me abriu<br>
+      muitas portas. Graças à qualidade de ensino e oportunidades de projetos e vivências estudantis adquiridas<br> 
+      na ETEC, eu consegui me formar em engenharia em uma das principais universidades do Brasil, e fiz amizades<br> 
+      que irei levar para a vida toda.
+  
+      </p>
+  </div>
+</div>
+
+<div class="bolota"></div>
+<div class="logaritimo"><img src="public\projeto-logo-icon.png" alt="Imagem não encontrada" width="250px" height="250px"></div>
+
+</div>
 <!--rodapé-->
 <div class="rodape">
   <a href="https://mobile.twitter.com/etecperuibe=" target="_blank"><img src="public\twitter-icone-4.png" alt="Twiter" height="50px" width="50px"></a>

@@ -1,8 +1,447 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+ font-family: 'Poppins';
+ background: rgb(2,43,129);
+background: linear-gradient(90deg, rgba(2,43,129,1) 0%, rgba(68,47,132,1) 51%, rgba(111,59,139,1) 100%);
+}
+
+.relatos{
+    transition: 0.3s;
+    text-align: justify;
+}
+
+.relatos:hover{
+    font-size: 20px;
+}
+
+.contain{
+    color: #fff;
+    padding: 0 200px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.container img{
-    width: 20vw;
+.contain texto{
+text-align: justify;
+}
+
+.imgvestibolinho{
+    border-radius: 50px;
+    width: 400px;
+    height: 500px;
+}
+.contain img{
+    border-radius: 50px;
+    padding: 40px;
+    width: 30vw;
+    transition: 0.5s;
+}
+
+.contain img:hover{
+    width: 33vw;
+}
+.contain .texto {
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.contain .texto h3 {
+    display: flex;
+    justify-content: center;
+}
+.contain .texto h5{
+    padding: 0 5x;
+}
+
+.contain .texto:hover{
+     font-size: 18px;
+}
+
+.contain .texto h3:hover {
+   color: #7FB5FF ;
+}
+
+
+#linha-horizontal {
+    display: flex;
+    border: 1px solid #808080;
+    align-items: center;
+}
+
+
+.container-cantina {
+    color: #fff;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-cantina img{
+    border-radius: 60px;
+    padding: 40px;
+    width: 30vw;
+    height: 45vh;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+.container-cantina .texto h3 {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-cantina .texto h3:hover{
+    color: #7FB5FF ;
+}
+
+.container-cantina .texto:hover{
+ font-size: 20px;
+}
+
+.container-cantina .texto {
+    border-right: 35px;
+    transition: 0.5s;
+}
+
+.container-cantina img:hover{
+    width: 33vw;
+    height: 47vh;
+}
+
+/*---------Home----------*/
+
+.home{
+    color: #fff;
+    padding: 0 200px;
+    align-items: center;
+    display: block;
+}
+
+.home p{
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.home .texto{
+    font-size: 22px;
+    display: flex;
+}
+
+.home .texto1{
+    height: 300px;
+    width: 300px;
+    background-color: #006E7F;
+}
+
+.home .texto-2{
+    font-size: 22px;
+}
+
+.home .texto h1{
+    font-size: 60px;
+    padding: 40px;
+}
+
+.home li{
+    padding: 10px;
+}
+
+
+.home img{
+    width: 30vw;
+    border-radius: 20px;
+    float: right;
+    display: flex;
+    transition: 0.5s;
+}
+
+.home img:hover{
+    width: 31vw;
+}
+
+.home .texto span{
+    color: rgb(212, 255, 212);
+}
+
+/*-----------Museu-------------*/
+
+.container-museu{
+    color: #fff;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.container-museu img{
+    border-radius: 50px;
+    padding: 20px;
+    width: 30vw;
+    transition: 0.5s;
+}
+
+.container-museu img:hover{
+    width: 33vw;
+}
+
+.container-museu .texto-museu{
+    justify-content: center;
+    transition: 0.5s;
+    }
+
+  .container-museu .texto-museu h3 {
+     display: flex;
+    justify-content: center;
+  }
+
+  .container-museu .texto-museu h3:hover{
+  color: #7FB5FF ; 
+}
+
+.container-museu .texto-museu:hover{
+    font-size: 20px;
+}
+
+.circulo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(111,59,139,1) 0%, rgba(57,47,132,1) 51%, rgba(96,86,232,1) 100%);
+    clip-path: circle(40% at right 50%);
+    position: fixed;
+    z-index: -1;
+}
+
+/*----------Quem somos-----------*/ 
+
+.containi{
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 4;
+}
+.containi .card-containi{
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.containi .card-containi h1{
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+}
+.containi .card-containi h2{
+padding: 10px 100px;
+font-size: 1.8em;
+color: #fff;
+z-index: 1;
+}
+
+.containi .card-containi p{
+    text-align: justify;
+        font-size: 120%;
+        color: #fff;
+        font-weight: 300;
+    
+    }
+    
+    .containi img{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 30vw;
+        transition: 0.5s;
+    }
+    
+    .containi .texto {
+        padding: 20px;
+        justify-content: center;
+        transition: 0.5s;
+    }
+      
+    .containi .card-containi:hover{
+        font-size: 110%;
+        transition: 0.5s;
+       width: 1210px;
+       height: 810px;
+    }
+    
+/* ---------Cursos-------------*/
+
+.circulo3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(30% at left 80%);
+    position: fixed;
+    z-index: -1;
+}
+.circuloc2{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(184,0,255);
+        background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+        clip-path: circle(30% at left 80%);
+        position: fixed;
+        z-index: -1;
+    }
+    .circuloc3{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(90deg, rgb(106, 35, 145) 0%, rgba(57,47,132,1) 51%, rgb(34, 48, 236) 60%);
+        clip-path: circle(30% at left 10%);
+        position: fixed;
+        z-index: -3;
+    }
+
+/* ---------Cursos-------------*/
+
+.circulo3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+    background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(30% at left 80%);
+    position: fixed;
+    z-index: -1;
+}
+
+.circulo4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+    background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(20% at right 80%);
+    position: fixed;
+    z-index: -2;
+}
+
+.circulo5{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+    background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(10% at center 20%);
+    position: fixed;
+    z-index: -3;
+}
+
+.circulo6{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(184,0,255);
+    background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, rgba(96,86,232,1) 55%);
+    clip-path: circle(15% at center 110%);
+    position: fixed;
+    z-index: -4;
+}
+
+.contain-cursos{
+    padding: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 4;
+}
+
+.contain-cursos .card-cursus{
+    position: relative;
+    width: 580px;
+    height: 650px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+
+}
+
+.contain-cursos .card-cursus:hover{
+    font-size: 110%;
+    transition: 0.5s;
+   width: 650px;
+   height: 730px;
+}
+
+.contain-cursos .card-cursus .conteudo{
+ padding: 50px;
+ text-align: justify;
+ transition: 0.5s;
+}
+
+.contain-cursos .card-cursus .conteudo h2{
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+}
+
+.contain-cursos .card-cursus .conteudo h3
+{
+    padding: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    z-index: 1;
+}
+.contain-cursos .card-cursus .conteudo p{
+    font-size: 120%;
+    color: #fff;
+    font-weight: 300;
+
 }
