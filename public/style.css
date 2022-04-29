@@ -435,7 +435,7 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
 .contain-cursos .card-cursus .conteudo h3
 {
     padding: 10px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: #fff;
     z-index: 1;
 }
