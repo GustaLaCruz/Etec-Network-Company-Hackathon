@@ -224,7 +224,7 @@ text-align: justify;
 /*----------Quem somos-----------*/ 
 
 .containi{
-    padding: 70px;
+    padding: 30px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -270,16 +270,16 @@ z-index: 1;
         font-weight: 300;
     
     }
-    }
     
     .containi img{
         margin-top: 30px;
-        border-radius: 50px;
+        border-radius: 10px;
         width: 30vw;
         transition: 0.5s;
     }
     
     .containi .texto {
+        padding: 20px;
         justify-content: center;
         transition: 0.5s;
     }
@@ -445,4 +445,3 @@ background: linear-gradient(90deg, rgba(184,0,255,1) 0%, rgba(60,46,166,1) 28%, 
     font-weight: 300;
 
 }
-
