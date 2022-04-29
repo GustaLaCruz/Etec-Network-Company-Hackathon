@@ -60,7 +60,7 @@ text-align: justify;
 }
 
 .contain .texto h3:hover {
-   color: #808080 ;
+   color: #7FB5FF ;
 }
 
 
@@ -99,7 +99,7 @@ text-align: justify;
 }
 
 .container-cantina .texto h3:hover{
-    color: #808080 ;
+    color: #7FB5FF ;
 }
 
 .container-cantina .texto:hover{
@@ -138,7 +138,7 @@ text-align: justify;
 .home .texto1{
     height: 300px;
     width: 300px;
-    background-color: #808080;
+    background-color: #006E7F;
 }
 
 .home .texto-2{
@@ -202,7 +202,7 @@ text-align: justify;
   }
 
   .container-museu .texto-museu h3:hover{
-  color: #808080 ; 
+  color: #7FB5FF ; 
 }
 
 .container-museu .texto-museu:hover{
